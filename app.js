@@ -1,5 +1,5 @@
-function calculateSum(a, b) {
-    return a + b;
+function calculateSum(q, w) {
+    return q + w;
 }
 
 function calculateDifference(a, b) {
