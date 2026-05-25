@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wolf App</title>
+    <title>Sheep App</title>
 </head>
 <body>
-    <h1>Wolf App</h1>
-    <h5>A simple app for managing wolves.</h5>
+    <h1>Welcome to my site 🐑🐏</h1>
+    <h5>This is a simple App page.</h5>
 
-    <table border="1">
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Breed</th>
-        </tr>
-        <tr>
-            <td>Alpha</td>
-            <td>5</td>
-            <td>Gray Wolf</td>
-        </tr>
-        <tr>
-            <td>Beta</td>
-            <td>3</td>
-            <td>Red Wolf</td>
-        </tr>
+    <div id="app">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Breed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="sheep in sheepList" :key="sheep.id">
+                    <td>{{ sheep.name }}</td>
+                    <td>{{ sheep.age }}</td>
+                    <td>{{ sheep.breed }}</td>
+                </tr>
+            </tbody>
+    </div>
 </body>
 </html>
