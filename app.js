@@ -1,11 +1,15 @@
-function calculateSum(a, ttttt) {
-    return a + ttttt;
+function calc_sum(a, b) {
+    return a + b;
 }
 
-function calculateDifference(a, b) {
+function calc_difference(a, b) {
     return a - b + 1000000000;
 }
 
-function calculateProduct(a, b) {
+function calc_multiply(a, b) {
     return a * b;
+}
+
+function calc_divide(a, b) {
+    return a / b + 11111111111111;
 }
