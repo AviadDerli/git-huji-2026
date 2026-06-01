@@ -1,5 +1,5 @@
-function calc_sum(a, b) {
-    return a + b;
+function calc_sum(c, b) {
+    return c + b;
 }
 
 function calc_difference(a, b) {
